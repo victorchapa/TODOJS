@@ -3,16 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>TODO LIST Backbone.js</title>
+    <link rel="stylesheet" href="app/css/bootstrap.css">
   </head>
   <body>
+    <div id="APPContainer">
+      <header>
+        <h1>~ TODOS ~</h1>      
+        <input type="text" id="newActivity" placeholder="Put your activity here">
+      </header>
+      <section id="Activities">
+      <input type="button" value="Select ALL!" id="selectAll" class="btn btn-mini btn-warning" >
+      </section>
+    </div>
   </body>
   <!--Scrypting-->
-  <script src="libs/jquery.js"></script>
-  <script src="libs/underscore.js"></script>
-  <script src="libs/backbone.js"></script>
+  <script src="app/javascripts/libs/jquery.js"></script>
+  <script src="app/javascripts/libs/underscore.js"></script>
+  <script src="app/javascripts/libs/backbone.js"></script>
+  <script src="app/javascripts/libs/bootstrapJS.js"></script>
+  <script src="app/javascripts/libs/backboneLocalStorage.js"></script>
   <script src="main.js"></script>
   <script src="router.js"></script>
   <!--Models-->
+  <script src="app/javascripts/models/item.js"></script>
   <!--Collections-->
+  <script src="app/javascripts/collections/allitems.js"></script>
   <!--Views-->
 </html>
