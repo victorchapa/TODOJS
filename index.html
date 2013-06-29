@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>TODO LIST Backbone.js</title>
     <link rel="stylesheet" href="app/css/bootstrap.css">
+    <link rel="stylesheet" href="app/css/main.css">
   </head>
   <body>
     <div id="APPContainer">
@@ -13,6 +14,8 @@
       </header>
       <section id="Activities">
       <input type="button" value="Select ALL!" id="selectAll" class="btn btn-mini btn-warning" >
+      <ul id="list">
+      </ul>
       </section>
     </div>
   </body>
@@ -29,4 +32,6 @@
   <!--Collections-->
   <script src="app/javascripts/collections/allitems.js"></script>
   <!--Views-->
+  <script src="app/javascripts/views/item.js"></script>
+  <script src="app/javascripts/views/list.js"></script>
 </html>
